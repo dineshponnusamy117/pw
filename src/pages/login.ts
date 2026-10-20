@@ -13,6 +13,7 @@ export class LoginPage{
         this.loginButton =  page.locator('[data-test="login-button"]')
     }
 async login(username: string, password: string){
+    //test
     await this.userName.fill(username)
     await this.password.fill(password)
     await this.loginButton.click()
