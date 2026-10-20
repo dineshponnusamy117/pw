@@ -24,6 +24,7 @@ async navigateToLoginUrl(){
 
 }
 async cmsLogin(){
+    //testing
       await this.page.goto('https://testcms.reco-claims.ca/Login');
         await this.page.getByRole('textbox', { name: 'Username' }).fill('info+programmanager@xlgclaims.com');
         await this.page.getByRole('textbox', { name: 'Password' }).fill('XlgTest-2026!');
